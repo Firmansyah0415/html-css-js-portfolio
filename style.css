@@ -185,13 +185,14 @@ section {
 
 .section-text-p1 {
     margin-block: 0;
+    font-size: 1.4rem;
     text-align: center;
     color: rgb(85, 85, 85);
 }
 
 .section-text-p2 {
     margin-block: 0;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     color: rgb(85, 85, 85);
 }
 

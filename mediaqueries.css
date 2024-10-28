@@ -1,3 +1,9 @@
+@media screen and (min-width: 1400px) {
+    aside .social-media ul {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -11,6 +17,10 @@
     #contact,
     #projects {
         height: fit-content;
+    }
+
+    aside .social-media ul {
+        display: none;
     }
 }
 
@@ -62,8 +72,6 @@
         margin: 0 5%;
     }
 
-
-
     .profile-pic {
         display: flex;
         align-items: center;
@@ -80,6 +88,10 @@
     .about-details-container p {
         text-align: justify;
     }
+
+    aside .social-media ul {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -92,6 +104,14 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+    }
+
+    section {
+        margin-right: 3rem;
+    }
+
+    .section-text .social-media {
+        display: none;
     }
 
     article {
@@ -152,6 +172,10 @@
         height: 250px;
     }
 
+    .section-text-p1 {
+        font-size: 1rem;
+    }
+
     .section-text-p2 {
         font-size: 1.25rem;
     }
@@ -163,4 +187,39 @@
     .text-container {
         text-align: justify;
     }
+
+    .contact-info-upper-container {
+        gap: 1rem;
+    }
+
+    main aside {
+        position: fixed;
+        inset-block: 0;
+        inset-inline-end: 0;
+    }
+
+    main aside .social-media {
+        height: 100%;
+        display: flex;
+    }
+
+    main aside .social-media ul {
+        padding: 1.5rem 0.5rem;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        margin: auto;
+        background-color: #2d3e50;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    main aside .social-media ul a {
+        color: white;
+        font-size: 1.7rem;
+    }
+
 }
