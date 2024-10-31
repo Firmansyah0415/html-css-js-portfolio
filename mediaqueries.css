@@ -96,64 +96,18 @@
 
 @media screen and (max-width: 600px) {
 
-    #contact,
-    footer {
-        height: 40vh;
-    }
-
-    #profile {
-        height: 83vh;
-        margin-bottom: 0;
+    .logo {
+        font-size: 1.5rem;
     }
 
     section {
         margin-right: 3rem;
     }
 
-    .section-text .social-media {
-        display: none;
-    }
-
-    article {
-        font-size: 1rem;
-    }
-
-    footer {
-        font-size: 1rem
-    }
-
-    footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
-    }
-
-    .about-container,
-    .contact-info-upper-container,
-    .btn-container {
-        flex-wrap: wrap;
-    }
-
-    .contact-info-container {
-        margin: 0;
-    }
-
-    .contact-info-container p,
-    .nav-links li a {
-        font-size: 1rem;
-    }
-
-    .experience-sub-title {
-        font-size: 1.25rem;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
-        text-align: center;
+    #profile {
+        height: 90vh;
+        margin-bottom: 0;
+        padding-top: 5rem;
     }
 
     .profile-pic {
@@ -188,9 +142,45 @@
         text-align: justify;
     }
 
+    .section-text .social-media {
+        display: none;
+    }
+
+    /* Experience Section */
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+
+    #contact {
+        height: 40vh;
+    }
+
     .contact-info-upper-container {
         gap: 1rem;
+        /* justify-content: center; */
     }
+
+    .about-container,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    /* Social Media Side Bar */
 
     main aside {
         position: fixed;
@@ -220,6 +210,26 @@
     main aside .social-media ul a {
         color: white;
         font-size: 1.7rem;
+    }
+
+    /* Footer */
+
+    footer {
+        font-size: 1.2rem;
+        height: 40vh;
+        text-align: center;
+        padding-inline: 1.3rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
     }
 
 }
