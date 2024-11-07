@@ -27,6 +27,13 @@
         flex-wrap: wrap;
     }
 
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
     #contact,
     #projects {
         height: fit-content;
