@@ -2,6 +2,12 @@
     aside .social-media ul {
         display: none;
     }
+
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -22,6 +28,12 @@
     aside .social-media ul {
         display: none;
     }
+
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -101,9 +113,10 @@
     }
 
     section {
-        margin-right: 3rem;
+        margin-right: 4.2rem;
     }
 
+    /* Profile Section */
     #profile {
         height: 90vh;
         margin-bottom: 0;
@@ -155,19 +168,31 @@
         font-size: 1rem;
     }
 
+    #experience .article-container {
+        justify-content: center;
+    }
 
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
+
+    /* Contact Section */
     #contact {
         height: 40vh;
     }
 
     .contact-info-upper-container {
         gap: 1rem;
-        /* justify-content: center; */
+        justify-content: space-evenly
     }
 
-    .about-container,
-    .contact-info-upper-container,
-    .btn-container {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .contact-info-upper-container {
         flex-wrap: wrap;
     }
 
@@ -181,7 +206,6 @@
     }
 
     /* Social Media Side Bar */
-
     main aside {
         position: fixed;
         inset-block: 0;
